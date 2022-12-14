@@ -74,7 +74,6 @@ function readHeight(data){
   // Asigna el valor de "data" como la altura 
   // Asigna el valor de "X" e "y" de la altura a las posiciones "x" e "y" respectivas del globo
   height = data.val();
-  console.log(height.x);
   balloon.x = height.x;
   balloon.y = height.y;
  }
